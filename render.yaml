@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: zexx-free-number-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
